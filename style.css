@@ -1,0 +1,125 @@
+body {
+	background: linear-gradient(to right, rgb(0, 128, 255), rgb(227, 227, 236));
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.container{
+	padding: 10px;
+	height: 80%;
+	width: 400px;
+	margin: 0 auto;
+	background: #068afd;
+	box-shadow: 0 0 10px rgba(4.3, 52.9, 96.9, 0.8);
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: rgb(234, 250, 14);
+}
+
+#second {
+	color: rgb(2, 58, 14);
+
+}
+
+#third {
+	color: #025F70;
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+	padding: 5px 15px;
+	border-radius:50px;
+	color: #ffffff;
+	background-color: rgb(8, 28, 214);
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: rgb(33, 107, 245);
+	color: #f2f2f2;
+	box-shadow:1px 1px 1px 1px rgb(6, 39, 145);
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid rgb(9, 79, 141);
+	max-width: 275px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #0367C1;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: rgb(74, 170, 248);
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #da0909;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+input:hover{
+	border: solid 1px rgba(8, 65, 150, 0.822);
+	box-shadow:1px 1px rgb(6, 39, 145);
+}
+input:focus{
+	border: solid 2px rgba(2, 53, 94, 0.788);
+}
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
